@@ -5,11 +5,11 @@
 
 html {
   -webkit-text-size-adjust: 120%;
-  /* Prevent font scaling in landscape while allowing user zoom */
+  /* Font scaling in landscape while allowing user zoom */
 }
 
 /* mobile styles first */
-body{
+body {
   font-size: 16px;
 }
 .item {
@@ -18,13 +18,15 @@ body{
 
 /* tablet styles */
 @media screen and (min-width: 768px) {
-      body {
+    body {
+      font-size: 18px;
+    }
+    .item {
         font-size: 18px;
-      }
-      .item {
-        font-size: 18px;
-      }
+    }
 }
+
+
 /* desktop styles */
 @media screen and (min-width: 1024px) {
     body {
@@ -89,9 +91,10 @@ img.avatar {
     flex-grow: 1;
     background-color: white;
     border-style: solid;
+    border-width: 1px;
     border-color: #E5E4E2;
     width: 300px;
-    line-height: 37.8px;
+    line-height: 38px;
     border-radius: 25px;
     margin: 8px;
     display: inline-block;
@@ -99,7 +102,7 @@ img.avatar {
     justify-content: center;
 }
 
-.flexbox>div:hover {
+.flexbox > div:hover {
   background-color: #e5e4e272;
   border-color: #c1c0bf;
 }
@@ -114,7 +117,7 @@ img.avatar {
 }
 
 .inspiredworks {
-  display:block;
+  display: block;
 }
 
 .inspiredworks > li {
