@@ -100,8 +100,8 @@ img.avatar {
     display: inline-block;
     text-align: center;
     justify-content: center;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 4px;
+    padding-right: 4px;
 }
 
 .flexbox > div:hover {
