@@ -55,6 +55,11 @@ a:hover {
   text-decoration: underline;
 }
 
+.socialmedia > a:hover {
+  color: #e5e4e272;
+  text-decoration: none;
+}
+
 /* selected link */
 a:active {
   color: black;
